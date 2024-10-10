@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const Formschema = new mongoose.Schema({
     empcode: { type: String, required: true },
     firstname: { type: String, required: true },
+    email: { type: String, required: true },
     mobileno: { type: String, required: true },
     DOJ: { type: Date, required: true },
     salary: { type: Number, required: true },
